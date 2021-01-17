@@ -3,3 +3,6 @@ h1{font-family: arial bold;text-align: center; font-size: 36px;}
 .Base{text-align: center;}
 .Etiqueta{text-align: center; font-size: 14;}
 hr{text-align: center;width: 30%;}
+a:link{color:rgb(4, 199, 199);}
+a:visited{color: rgba(81, 206, 206, 0.658)}
+ol ol {list-style-type: upper-roman,;}
