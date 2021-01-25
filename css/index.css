@@ -1,9 +1,50 @@
-h1{font-family: arial bold;text-align: center; font-size: 36px;}
-.MainText{font-family: courier; text-align: center; font-size: 20px;}
-.Base{text-align: center;}
-.Etiqueta{text-align: center; font-size: 14;}
-hr{text-align: center;width: 30%;}
-a:link{color:rgb(4, 199, 199);}
-a:visited{color: rgba(81, 206, 206, 0.658)}
-ol ol {list-style-type: upper-roman,;}
-img{text-align: center;}
+#fondo{
+    position: fixed;
+}
+
+#texto{
+    width: 50vw;
+    height: 1000px;
+    background: #E5DAD8;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: 100px auto;
+    border-radius: 5% 5% 0% 0%;
+    box-shadow: 5px 2px 20px 0 #000;
+}
+#barra{
+    position: absolute;
+    margin: 50px auto;
+}
+
+div article sector p, div article sector h2{
+    position: relative;
+    left: 3vw;
+    width: 40vw;
+    text-align: justify;
+    text-indent: 1vw;
+}
+/* para la imagen del panel usa lo de que si la resolucion es baja ponga otra imagen o algo asi, porque se ve bien feo si lo pones con viewports*/
+#panel{
+    position: relative;
+    left: 3vw;
+}
+#lado{
+    text-align: justify;
+    position: absolute;
+    top: 6vw;
+    left: 24vw;
+    width: 23vw;
+}
+#parrafoUno{
+    position: relative;
+    top:1vw;
+}
+#jovani{
+    position: relative;
+    text-align: center;
+    top:2vw;
+}
