@@ -3,7 +3,7 @@
 }
 
 #texto{
-    width: 50vw;
+    width: 850px;
     height: 1000px;
     background: #E5DAD8;
     position: absolute;
@@ -22,29 +22,25 @@
 
 div article sector p, div article sector h2{
     position: relative;
-    left: 3vw;
-    width: 40vw;
+    left: 50px;
+    width: 700px;
     text-align: justify;
     text-indent: 1vw;
 }
 /* para la imagen del panel usa lo de que si la resolucion es baja ponga otra imagen o algo asi, porque se ve bien feo si lo pones con viewports*/
 #panel{
     position: relative;
-    left: 3vw;
+    left: 50px;
 }
 #lado{
     text-align: justify;
     position: absolute;
-    top: 6vw;
-    left: 24vw;
-    width: 23vw;
-}
-#parrafoUno{
-    position: relative;
-    top:1vw;
+    top: 100px;
+    left: 400px;
+    width: 396px;
 }
 #jovani{
     position: relative;
     text-align: center;
-    top:2vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
