@@ -25,7 +25,7 @@ div article sector p, div article sector h2{
     left: 50px;
     width: 700px;
     text-align: justify;
-    text-indent: 1vw;
+    text-indent: 20px;
 }
 /* para la imagen del panel usa lo de que si la resolucion es baja ponga otra imagen o algo asi, porque se ve bien feo si lo pones con viewports*/
 #panel{
