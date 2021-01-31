@@ -1,46 +1,90 @@
-#fondo{
-    position: fixed;
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: rgb(94, 94, 94);
+}
+.barra{
+    position: sticky;
+    display: block;
+    top: 0;
+    background: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    
 }
 
-#texto{
-    width: 850px;
-    height: 1000px;
-    background: #E5DAD8;
-    position: absolute;
-    top: 0px;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    margin: 100px auto;
-    border-radius: 5% 5% 0% 0%;
-    box-shadow: 5px 2px 20px 0 #000;
+.barra-lista{
+    position: sticky;
+    display: block;
+    list-style-type: none;
 }
-#barra{
-    position: absolute;
-    margin: 50px auto;
+.elemento__barra{
+    position: sticky;
+    display: inline-block;
+    color: #000;
+    font-size: 25px;
+    margin: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-bottom: #062c6d solid 2px;
+    transition: background .5s;
+    opacity: 1;
+}
+.elemento__barra:hover{
+    color: #fff;
+    background:#0a2a7c;
 }
 
-div article sector p, div article sector h2{
-    position: relative;
-    left: 50px;
-    width: 700px;
-    text-align: justify;
-    text-indent: 20px;
+.divlogo{
+    display: inline-block;
+    position: sticky;
+    width: 300px;
+    height: 50px;
+    background: #ccc;
 }
-/* para la imagen del panel usa lo de que si la resolucion es baja ponga otra imagen o algo asi, porque se ve bien feo si lo pones con viewports*/
-#panel{
-    position: relative;
-    left: 50px;
+.elemento1{
+    border-bottom: none;
 }
-#lado{
-    text-align: justify;
+.logo{
+    position: relative;
+    width: 200px;
+    height: 30px;
+    object-fit: cover;
+    object-position: bottom;
+}
+.portada, .portada__imagen{
     position: absolute;
-    top: 100px;
-    left: 400px;
-    width: 396px;
+    width: 500px;
 }
-#jovani{
-    position: relative;
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+@media (max-width: 720px){
+    .barra{
+        position: relative;
+    }
+    .logo{
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+    }
+    .elemento__barra{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 619px){
+    .logo{
+        width: 200px;
+        height: 30px;
+    }
+
+    .barra__lista{
+
+    }
+    .elemento__barra{
+        display: block;
+        text-align: center;
+    }
+
 }
