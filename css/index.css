@@ -58,7 +58,7 @@ body{
 }
 @media (max-width: 720px){
     .barra{
-        position: relative;
+        position: absolute;
     }
     .logo{
         top: 0;
