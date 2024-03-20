@@ -1,0 +1,18 @@
+/*
+Custom Css
+*/
+.navbar-brand img {
+    max-width: 75px; /* Adjust the value to your desired size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.mx-auto img{
+    float: right;
+    max-width: 400px; /* Adjust the value to your desired size */
+    height: 400px; /* Maintain aspect ratio */
+}
+
+.col-md-4 img{
+    max-width: 400px; /* Adjust the value to your desired size */
+    height: auto; /* Maintain aspect ratio */
+}
