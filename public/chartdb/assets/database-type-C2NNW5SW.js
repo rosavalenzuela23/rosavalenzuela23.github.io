@@ -1,0 +1,1 @@
+var E=(r=>(r.GENERIC="generic",r.POSTGRESQL="postgresql",r.MYSQL="mysql",r.SQL_SERVER="sql_server",r.MARIADB="mariadb",r.SQLITE="sqlite",r.CLICKHOUSE="clickhouse",r.COCKROACHDB="cockroachdb",r))(E||{});export{E as D};
